@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Générateur d'Emails Professionnels</title>
+  <link rel="stylesheet" href="Css/style3.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>📧 Générateur d'Email Professionnel</h1>
+
+    <form id="emailForm">
+      <input type="text" id="prenom" placeholder="Prénom" required />
+      <input type="text" id="nom" placeholder="Nom" required />
+      <input type="text" id="poste" placeholder="Poste visé" required />
+      <input type="text" id="objet" placeholder="Objet de l'email" required />
+      <button type="submit">Générer l'email</button>
+    </form>
+
+    <div class="output" id="emailOutputContainer">
+      <h2>Email généré :</h2>
+      <textarea id="emailOutput" readonly></textarea>
+      <button id="copyBtn">📋 Copier</button>
+    </div>
+  </div>
+
+  <script src="JS/Script3.js"></script>
+</body>
+</html>
